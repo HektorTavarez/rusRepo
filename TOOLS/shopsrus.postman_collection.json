@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "8ccc61d3-3657-47ea-8103-3d5b0abafc6d",
+		"name": "shopsrus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "allOffers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shoprus/offer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"offer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveOffer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"descripcion\":\"Empleado\",\r\n\t \"aplica\":2,\r\n\t \"porcentage\":5,\r\n\t \"cantidad\":0,\r\n\t \"restricciones\":\"3\",\r\n     \"antiguedad\":3,\r\n     \"superior\":100,\r\n     \"cada\":100,\r\n     \"total\":0\t\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shoprus/offer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"offer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchOfferById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shoprus/offer?id=9",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"offer"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allClients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shoprus/client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchClientById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shoprus/client?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"client"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchClientByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shoprus/client?name=Hector tavarez",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"client"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Hector tavarez"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveClient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nombres\": \"Luis\",\r\n        \"paterno\": \"Lopez\",\r\n        \"materno\": \"Lopez\",\r\n        \"fecha_nacimiento\": \"1970-04-09\",\r\n        \"usuario\": 3,\r\n        \"domicilio\": {\r\n            \"calle\": \"Mariano Matamoros\",\r\n            \"colonia\": \"Benito Juarez\",\r\n            \"municipio\": \"Cuernavaca\",\r\n            \"estado\": \"Morelos\",\r\n            \"numero\": \"303B\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shoprus/client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchSalesCheckInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shoprus/salescheck?id=5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shoprus",
+						"salescheck"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
