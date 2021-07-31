@@ -35,7 +35,7 @@ Api ShopsRus
 
 Clonar el repositorio
    ```sh
-   git clone https://github.com/HektorTavarez/shopRus.git
+   git clone https://github.com/HektorTavarez/rusRepo.git
    ```
 
  <ul>
