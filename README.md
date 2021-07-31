@@ -53,6 +53,12 @@ Clonar el repositorio
 Para probar el api cargar en postman el archivo de peticiones generado con el nombre shopsrus.postman_collection.json que se encuentra en la carpeta TOOLS, 
 en el viene el listado de peticiones así como los datos necesarios para realizar las pruebas 
 
+<br />
+
+N:En el documento flujosDePrueba.docx se indica el método de servicio que Cubre con cada requerimiento, de igual forma se agrega el archivo shopsrus.postman_collection.json 
+ Que contiene la información necesaria para realizar las peticiones. 
+
+
 
 <!-- CONTACT -->
 ## Contact
