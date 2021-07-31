@@ -41,6 +41,7 @@ Clonar el repositorio
  <ul>
     <li>Importar proyecto en Eclipse</li>
     <li>Cambiar Variables en archivo properties para conexión a BD </li>
+    <li>Crear la BD shops_rus y dentro ejecutar los siguientes archivos</li>  
     <li>Ejecutar en SQL Server  archivo creacionEstructuras.sql que se encuentra en la carpeta TOOLS</li>
     <li>Ejecutar en SQL Server archivo inserts.sql que se encuentra en la carpeta TOOLS</li>
     <li>Ejecutar en SQL Server archivo SPS.sql que se encuentra en la carpeta TOOLS</li>
