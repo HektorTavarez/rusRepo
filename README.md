@@ -33,7 +33,7 @@ Api ShopsRus
 
 ### Installation
 
-Clone the repo
+Clonar el repositorio
    ```sh
    git clone https://github.com/HektorTavarez/shopRus.git
    ```
